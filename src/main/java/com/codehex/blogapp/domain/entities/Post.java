@@ -1,6 +1,6 @@
 package com.codehex.blogapp.domain.entities;
 
-import com.devtiro.blog.domain.PostStatus;
+import com.codehex.blogapp.domain.PostStatus;
 import jakarta.persistence.*;
 import lombok.*;
 
