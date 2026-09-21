@@ -1,6 +1,6 @@
 package com.codehex.blogapp.domain.dtos;
 
-import com.devtiro.blog.domain.PostStatus;
+import com.codehex.blogapp.domain.PostStatus;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;

@@ -1,6 +1,6 @@
 package com.codehex.blogapp.repositories;
 
-import com.devtiro.blog.domain.entities.Tag;
+import com.codehex.blogapp.domain.entities.Tag;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

@@ -1,6 +1,6 @@
 package com.codehex.blogapp.domain.dtos;
 
-import com.devtiro.blog.domain.PostStatus;
+import com.codehex.blogapp.domain.PostStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
