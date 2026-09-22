@@ -35,6 +35,11 @@ public class CategoryController {
     public ResponseEntity<CategoryDto> createCategory(
             @Valid @RequestBody CreateCategoryRequest createCategoryRequest) {
         Category categoryToCreate = categoryMapper.toEntity(createCategoryRequest);
+
+        if(categoryToCreate == null){
+            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+        }
+
         Category savedCategory = categoryService.createCategory(categoryToCreate);
         return new ResponseEntity<>(
                 categoryMapper.toDto(savedCategory),
